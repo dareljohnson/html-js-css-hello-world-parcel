@@ -1,0 +1,24 @@
+{
+  "name": "html-docs-hello-world",
+  "version": "1.0.0",
+  "description": "---\r topic: HTML Hello World\r languages:\r   - HTML\r products:\r   - Azure App Service\r   - Azure Web Apps\r ---",
+  "source": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azure-Samples/html-docs-hello-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azure-Samples/html-docs-hello-world/issues"
+  },
+  "homepage": "https://github.com/Azure-Samples/html-docs-hello-world#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
